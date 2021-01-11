@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+question1 = Question.create(read_me: "what is 2 + 3")
+question2 = Question.create(read_me: "If a man jumps off a building....")
+question3 = Question.create(read_me: "2 engineeers have a....")
+question4 = Question.create(read_me: "Your boss need an appraisal....")
