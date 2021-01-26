@@ -6,6 +6,7 @@ class UsersController < ApplicationController
             password: params['user']['password'],
             password_confirmation: params['user']['password']
         )
+        
         if user
             session[:user_id] = user.id
             render json: {
