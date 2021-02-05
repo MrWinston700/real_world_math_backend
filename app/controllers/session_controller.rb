@@ -11,7 +11,7 @@ class SessionController < ApplicationController
             render json: {
                 status: :created,
                 logged_in: true,
-                user: user
+                user: { email: user.email, name: user.name, id: user.id }
             }
         else
             render json: { status: 401}
