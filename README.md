@@ -1,24 +1,55 @@
-# README
+# real_world_math_backend README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is frontend section. will need a the backend to this project which you can find here: 
 
-Things you may want to cover:
+https://github.com/superHotStuff/real_world_math_frontend
 
-* Ruby version
+# Video Walkthrough
 
-* System dependencies
+# real_world_math_frontend (front end)
 
-* Configuration
+This was built using a Rails API back end, which communicates with the front end, built with React and Redux.
 
-* Database creation
+## Overview
 
-* Database initialization
+This project was made with goal of being multuple choice question and answer for real world math problems. However, questions right now are very basic as i'm still building out some features.
 
-* How to run the test suite
+## Installation
 
-* Services (job queues, cache servers, search engines, etc.)
+Fork and clone repo
 
-* Deployment instructions
+    $ git clone https://github.com/superHotStuff/real_world_math_frontend
+    $ git clone https://github.com/superHotStuff/real_world_math_backend
 
-* ...
+Using two terminals, switch to each respective directory
+
+    $ cd real_world_math_frontend
+    $ cd real_world_math_backend
+
+Backend terminal instructions: 
+
+    $ bundle install
+    $ rails db:migrate
+    $ rails db:seed
+    $ rails s
+
+Frontend terminal instructions: 
+    
+    $ npm install
+    $ npm start
+
+## Usage
+
+    Default home page will give a random quote from an api for inspiration
+
+    You can sign up or sign in via the nav bar button at the top to store already answered questions, and also leave comments underneath a given question
+
+    The get question button will give a question with multiple choice questions
+
+## Contributing
+
+This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
+## License
+
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
