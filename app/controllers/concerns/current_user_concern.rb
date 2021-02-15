@@ -10,4 +10,10 @@ module CurrentUserConcern
             @current_user = User.find(session[:user_id])
         end
     end
+
+    def current_users
+        @current_user ||= User.find_by_id(session[:user_id]) if session[:user_id]
+    end
+
+
 end

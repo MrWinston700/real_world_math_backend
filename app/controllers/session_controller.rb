@@ -18,11 +18,12 @@ class SessionController < ApplicationController
         end
     end
 
-    def logged_in
+    def check_logged_in
         if @current_user
+            user = @current_user
             render json: {
                 logged_in: true,
-                user: @current_user
+                user: { email: user.email, name: user.name, id: user.id }
             }
         else 
             render json: {
