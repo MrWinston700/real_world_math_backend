@@ -6,9 +6,17 @@ https://github.com/superHotStuff/real_world_math_frontend
 
 # Video Walkthrough
 
-# real_world_math_frontend (front end)
+https://www.youtube.com/watch?v=labv9iRqKQo&feature=emb_logo
 
-This was built using a Rails API back end, which communicates with the front end, built with React and Redux.
+# tools used
+
+React/Redux, Javascript, Ruby on Rails, React router
+
+# features
+
+Api that fetches a random inspirational quote
+Users will get a random question from the backend database
+Users can sign in or sign up to post comments under a question
 
 ## Overview
 
