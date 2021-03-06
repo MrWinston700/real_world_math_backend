@@ -4,5 +4,5 @@ class User < ApplicationRecord
     validates_uniqueness_of :email
     has_many :questions
     has_many :comments
-    
+    serialize :answered_questions, Array
 end
