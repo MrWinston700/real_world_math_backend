@@ -4,19 +4,19 @@ This is frontend section. will need a the backend to this project which you can 
 
 https://github.com/superHotStuff/real_world_math_frontend
 
-# Video Walkthrough
+## Video Walkthrough
 
 https://www.youtube.com/watch?v=labv9iRqKQo&feature=emb_logo
 
-# tools used
+## tools used
 
 React/Redux, Javascript, Ruby on Rails, React router
 
-# features
+## features
 
-Api that fetches a random inspirational quote
-Users will get a random question from the backend database
-Users can sign in or sign up to post comments under a question
+Api that fetches a random inspirational quote.
+Users will get a random question from the backend database.
+Users can sign in or sign up to post comments under a question.
 
 ## Overview
 
@@ -56,12 +56,12 @@ Frontend terminal instructions:
 
 ## challenge
 
-Most challenging aspect of this project was changing data through redux
+Most challenging aspect of this project was changing data through redux.
 
 ## future implementations
 
- ui overhaul
- Email to be sent out weekly to user with new question
+ ui overhaul.
+ Email to be sent out weekly to user with new question.
 
 ## Contributing
 
