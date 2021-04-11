@@ -9,6 +9,7 @@ class UsersController < ApplicationController
         
         if user
             session[:user_id] = user.id
+            set_current_user
             render json: {
                 status: :created,
                 user: { email: user.email, name: user.name, id: user.id }
