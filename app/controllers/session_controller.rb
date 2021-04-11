@@ -1,5 +1,4 @@
 class SessionController < ApplicationController
-    include CurrentUserConcern
 
     def create
         user = User
@@ -20,9 +19,9 @@ class SessionController < ApplicationController
     end
 
     def check_logged_in
-        binding.pry
-        if @current_user
-            user = @current_user
+    
+        if current_users
+            user = current_users
             render json: {
                 logged_in: true,
                 user: { email: user.email, name: user.name, id: user.id }
