@@ -8,6 +8,7 @@ class SessionController < ApplicationController
 
         if user
             session[:user_id] = user.id
+            set_current_user
             render json: {
                 status: :created,
                 logged_in: true,
@@ -19,6 +20,7 @@ class SessionController < ApplicationController
     end
 
     def check_logged_in
+        binding.pry
         if @current_user
             user = @current_user
             render json: {
